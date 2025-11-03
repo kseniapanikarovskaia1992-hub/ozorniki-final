@@ -62,5 +62,6 @@ function Header({cart, go, adminLogged, startAdmin}){
         </div>
         <nav style={{display:"flex",gap:8,alignItems:"center"}}>
           <button className="btn" onClick={()=>go("home")}>Каталог</button>
-
+</nav>
+</header>
 /* truncated for brevity in this package; full app included in production build */
