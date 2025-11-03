@@ -64,4 +64,4 @@ function Header({cart, go, adminLogged, startAdmin}){
           <button className="btn" onClick={()=>go("home")}>Каталог</button>
 </nav>
 </header>
-/* truncated for brevity in this package; full app included in production build */
+
