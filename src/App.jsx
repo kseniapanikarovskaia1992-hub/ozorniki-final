@@ -2,6 +2,12 @@
 import React, {useState, useEffect} from "react";
 
 import productsData from "./products.json";
+import Home from "./Home";
+import ProductView from "./ProductView";
+import CartView from "./CartView";
+import Checkout from "./Checkout";
+import Admin from "./Admin";
+import Footer from "./Footer";
 
 function formatPrice(n){ return n.toLocaleString("ru-RU",{style:"currency", currency:"RUB", maximumFractionDigits:0}); }
 
