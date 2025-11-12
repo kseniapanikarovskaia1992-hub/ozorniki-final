@@ -1,11 +1,9 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
-import ProductView from "./components/ProductView";
-import CartView from "./components/CartView";
-import Checkout from "./components/Checkout";
-import Admin from "./components/Admin";
-import Footer from "./components/Footer";
+import Home from './components/Home';
+import ProductView from './components/ProductView';
+import CartView from './components/CartView';
+import Checkout from './components/Checkout';
+import Admin from './components/Admin';
+import Footer from './components/Footer';
 
 function App() {
   return (
